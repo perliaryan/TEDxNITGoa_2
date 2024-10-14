@@ -31,7 +31,7 @@ const MeetTeam = () => {
                 </div>
                 <div className="TeamMember_imgTitle__zaUW+">
                     <div className="TeamMember_imgTitleName__g1Dgw">Nisarg shah</div>
-                    <div className="TeamMember_imgTitlePost__n4O8U">Organizer</div>
+                    <div className="TeamMember_imgTitlePost__n4O8U">Organizers</div>
                 </div>
             </a>
             </div>
