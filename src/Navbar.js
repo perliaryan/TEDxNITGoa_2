@@ -63,7 +63,7 @@ const Navbar = () => {
                             <div className="navbar_head__Un2yU">
                                 <a className="navbar_lin1__bGONE" href="/">HOME</a>
                                 <a className="navbar_lin1__bGONE" href="/AboutUs">ABOUT US</a>
-                                <a className="navbar_lin1__bGONE" href="/">EVENTS</a>
+                                <a className="navbar_lin1__bGONE" href="/Teams">TEAMS</a>
                                 <a aria-current="page" className="navbar_lin1__bGONE active" href="/Sponsors" style={{ color: 'red' }}>SPONSORS</a>
                                 <a id="navbar_red1__MWKWk" className="navbar_lin1__bGONE" href="/">BUY TICKETS</a>
                                 <a className="navbar_lin1__bGONE" href="/ContactUs">CONTACT US</a>
@@ -77,7 +77,7 @@ const Navbar = () => {
                     <div className="navbar_right__5z6Ih">
                         <a className="navbar_lin__yrOtl" href="/">HOME</a>
                         <a aria-current="page" className="navbar_lin__yrOtl active" href="/AboutUs">ABOUT US</a>
-                        <a className="navbar_lin__yrOtl" href="/">EVENTS</a>
+                        <a className="navbar_lin__yrOtl" href="/Teams">TEAMS</a>
                         <a className="navbar_lin__yrOtl" href="/Sponsors">SPONSORS</a>
                         <a id="navbar_red__gXnY4" className="navbar_lin__yrOtl" href="/">BUY TICKETS</a>
                         <a className="navbar_lin__yrOtl" style={{ color: 'red' }} href="/ContactUs">CONTACT US</a>
