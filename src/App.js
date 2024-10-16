@@ -41,6 +41,9 @@ function App() {
             <Route path="/BuyTickets">
               <BuyTickets />
             </Route>
+            <Route path="/BuyTickets">
+              <BuyTickets />
+            </Route>
             <Route path="*">
               <NotFound />
             </Route>
