@@ -5,6 +5,7 @@ import Footer from './Footer';
 import MeetTeam from './AboutUs';
 import AboutUsCarousel from './AboutUs2';
 import Home from './Home';
+import Teams from './Teams';
 import NotFound from './NotFound';
 import Sponsors from './Sponsors';
 import Rough from './Roug';
@@ -24,14 +25,17 @@ function App() {
               <AboutUsCarousel />
               <MeetTeam />
             </Route>
+            <Route path="/Teams">
+              <Teams />
+            </Route>
             <Route path="/Sponsors">
-              <Sponsors/>
+              <Sponsors />
             </Route>
             <Route path="/rough">
-              <Rough/>
+              <Rough />
             </Route>
             <Route path="/ContactUs">
-              <ContactUs/>
+              <ContactUs />
             </Route>
             <Route path="*">
               <NotFound />
