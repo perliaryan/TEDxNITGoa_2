@@ -70,14 +70,14 @@ const Sponsors = () => {
     <div className="sponsors">
       <section className="partners_centering__mEmQ2">
         <div className="partners_title__cWB8o" style={{display: 'flex', justifyContent: 'center',alignItems: 'center', width: '80vw'}}  >
-          <span>Partner with TEDXNITGOA
+          <span>Partner with TEDxNIT Goa
 
           </span>
         </div>
         <p className="sponsors_para" style={{ width: '65vw' }}>
           <span className="partners_content__XGtJa">
             We’re looking for a select group of strategic partners to help us grow
-            the impact of TEDXNITGOA
+            the impact of TEDxNIT Goa
              over the next five years to help us
             reach <strong>100,000+ Goans</strong> through our live in-person
             events and <strong>100+ million global citizens</strong> through our
@@ -85,7 +85,7 @@ const Sponsors = () => {
           </span>
         </p>
         <a className="partners_button__nkcDD" href="mailto:iitg.tedx@gmail.com">
-          <span>Sponsor TEDXNITGOA
+          <span>Sponsor TEDxNIT Goa
 
           </span>
         </a>
@@ -94,13 +94,13 @@ const Sponsors = () => {
         <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', justifyContent: 'center', alignItems: 'center', height: '500px'}}>
           <div className="partners_title__cWB8o aos-init aos-animate" data-aos="zoom-out-up" data-aos-easing="ease-in-back" data-aos-duration="1500" data-aos-delay="700" style={{display: isVisible ? 'grid' : 'none', gridTemplateRows: '1fr 5fr 1fr', justifyContent: 'center', alignItems: 'center', width: '50vw', backgroundColor: 'rgba(0, 0, 0, 0.7)', height: '500px'}}>
             <div>
-              <p style={{color: 'rgb(255, 255, 255)', marginTop: '50px', textAlign: 'center'}}>Partner with TEDXNITGOA
+              <p style={{color: 'rgb(255, 255, 255)', marginTop: '50px', textAlign: 'center'}}>Partner with TEDxNIT Goa
 
               </p>
             </div>
             <div>
               <div className="partners_content__XGtJa" style={{width: '100%', letterSpacing: '-0.3px', margin: '0px', padding: '0px', color: 'rgb(255, 255, 255)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <p style={{width: '40vw'}}>In a world with short attention spans, TEDXNITGOA
+                <p style={{width: '40vw'}}>In a world with short attention spans, TEDxNIT Goa
                    makes reaching your target audience easy and cost-effective. Our audience interacts with our messaging year-round. With email engagement rates of 20%, we’ll share your sponsorship message alongside our trusted content, giving your brand the lift you’re looking for. Want to get in front of our largest audiences? Our video views have topped 1+ million in just the last three years. Become a sponsor and get in front of an engaged and large audience.</p>
               </div>
             </div>
@@ -130,7 +130,7 @@ const Sponsors = () => {
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1em' }}>
             <img src="/attendees.png" alt="Brand Alignment" data-aos="zoom-out-up" data-aos-easing="ease-in-back" data-aos-duration="1500" data-aos-delay="700" style={{ width: '45%', margin: 'auto' }} className="aos-init" />
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" data-aos-delay="700" style={{ fontSize: '30px', fontWeight: '350', textAlign: 'center' }} className="aos-init">Brand Alignment</div>
-            <p className="partners_content__XGtJa aos-init" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500" data-aos-delay="700" style={{ textAlign: 'center', fontWeight: '250' }}>Align your brand with TEDXNITGOA
+            <p className="partners_content__XGtJa aos-init" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500" data-aos-delay="700" style={{ textAlign: 'center', fontWeight: '250' }}>Align your brand with TEDxNIT Goa
                and our mission to spread ideas, build community, and change lives.</p>
           </div>
         </div>
@@ -164,7 +164,7 @@ const Sponsors = () => {
   <div>
     <div style={{ padding: '40px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '20px' }}>
       <h1 className="partners_title__cWB8o"><span>Our Audience</span></h1>
-      <p className="partners_content__XGtJa" style={{ width: '45vw' }}><span>Since 2019, TEDXNITGOA
+      <p className="partners_content__XGtJa" style={{ width: '45vw' }}><span>Since 2019, TEDxNIT Goa
          has been working to galvanize the local community, bringing together corporations, community organizations, entrepreneurs, and individuals, providing a platform for exceptional ideas, and a catalyst for profound change.</span></p>
     </div>
     <div style={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap' }}>
@@ -267,7 +267,7 @@ const Sponsors = () => {
         <img src="./Images/Newsletter/newsletter.svg" alt="" className="newsletter_newimg__ZpZHM" />
         <div className="newsletter_right__mGdQ8">
           <div className="newsletter_heading__UotNR">Newsletter</div>
-          <div className="newsletter_subheading__53QGB">I want to receive news from TEDXNITGOA
+          <div className="newsletter_subheading__53QGB">I want to receive news from TEDxNIT Goa
 
           </div>
           <form className="form newsletter_form__dqxuO" onSubmit={handleSubmit}>

@@ -38,7 +38,7 @@ const Navbar = () => {
     return (
         <div className="navbar_nav">
             <div className="navbar_left">
-                <a href="/"><img src="/tedx.jpeg" alt="" className="navbar_logo1__mHDkT" /></a>
+                <a href="/"><img src="/tedXnitgoa_logo.png" alt="" className="navbar_logo1__mHDkT" /></a>
             </div>
             {isMobile ? (
                 <div className="innerok">

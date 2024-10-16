@@ -52,7 +52,7 @@ const Footer = () => {
             <div className="footerStyles_footer_main__QPqPA">
               <div>
                 <a href="." className="footerStyles_logoTED__N8E+b" title="TEDx">
-                  <img src="/tedx.jpeg" alt="TEDx" />
+                  <img src="/tedXnitgoa_logo.png" alt="TEDx" />
                 </a>
                 <div className="footerStyles_footer_social__ncNPp">
                   <a href="https://www.instagram.com/tedxiitguwahati?igsh=MWcwdmFsY3JnZXV2dw==" target="_blank" rel="noopener noreferrer" className="footerStyles_social_icon__BHDZ9">
