@@ -1,7 +1,7 @@
 /* Navbar styles */
 .navbar_nav {
-  background: #ffffff;
-  box-shadow: 0 0 0 2px #0003;
+  background: #000000;
+  box-shadow: 0 0 0 2px #323232;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
@@ -30,7 +30,7 @@
 }
 
 .navbar_lin__yrOtl {
-  color: #323232;
+  color: #ffffff;
   font-family: Inter, sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -48,7 +48,7 @@
   width: 0;
   height: 4px;
   /* Adjust as needed */
-  background-color: red;
+  background-color: #eb0028;
   /* Underline color */
   transition: width 0.3s ease;
 }
@@ -64,7 +64,7 @@
 }
 
 .navbar_lin1__bGONE {
-  color: #494949;
+  color: #000000;
   font-family: Inter, sans-serif;
   font-size: .75rem;
   font-weight: 700;
@@ -73,9 +73,9 @@
 }
 
 
-/* .navbar_lin__yrOtl:hover {
-  padding-left: 10px; Adjust as needed
-} */
+.navbar_lin__yrOtl:hover {
+  color: #eb0028;
+}
 
 
 /* Hide certain elements on smaller screens */
@@ -241,6 +241,7 @@ navbar_slidetoright__I15Vs {
 }
 
 svg {
+  color: white;
   stroke: currentcolor;
   fill: currentcolor;
   stroke-width: 0;
@@ -254,7 +255,7 @@ svg {
 }
 
 .footerStyles_gmail__fYYwp {
-  color: red;
+  color: #eb0028;
   cursor: pointer;
 }
 
@@ -264,7 +265,7 @@ svg {
 }
 
 .footerStyles_quick_links__x5m9e {
-  color: #ff2b06;
+  color: #eb0028;
   font-size: 18px;
   font-weight: 600;
   line-height: 21px;
@@ -291,7 +292,7 @@ svg {
 }
 
 .footerStyles_footer_col_3_h6__l9XUv {
-  color: #ff2b06;
+  color: #eb0028;
   font-size: 15px;
   font-weight: 600;
   line-height: 21px;
@@ -354,7 +355,7 @@ svg {
 }
 
 .meetteam {
-  color: #ff2b06;
+  color: #eb0028;
 }
 
 .TeamMember_link__WlwN3 {
@@ -380,7 +381,7 @@ a {
 }
 
 .TeamMember_imgBox__xMdN4 img {
-  --color: #ee3624;
+  --color: #eb0028;
   --border: 10px;
   --offset: 20px;
   --gap: 5px;
@@ -605,7 +606,7 @@ a {
   align-items: center;
   background-color: #fff;
   border: none;
-  color: red;
+  color: #eb0028;
   cursor: pointer;
   display: flex;
   font-size: 20px;
@@ -646,7 +647,7 @@ button {
   align-items: center;
   background-color: #fff;
   border: none;
-  color: red;
+  color: #eb0028;
   cursor: pointer;
   display: flex;
   font-size: 20px;
@@ -710,8 +711,8 @@ button {
 }
 
 .partners_button__nkcDD {
-  background-color: #e62b1e;
-  border: 2px solid #e62b1e;
+  background-color: #eb0028;
+  border: 2px solid #eb0028;
   border-radius: 5px;
   color: #fff;
   display: block;
@@ -724,7 +725,7 @@ button {
 
 .partners_button__nkcDD:hover {
   background-color: #fff;
-  color: #e62b1e;
+  color: #eb0028;
 }
 
 /* 
@@ -810,7 +811,7 @@ button {
 }
 
 .newsletter_success__Y9srE {
-  color: red;
+  color: #eb0028;
   font-weight: 700;
   margin-left: 10px;
   margin-top: 5px;
@@ -908,7 +909,7 @@ button {
 }
 
 .contactUs_title__Kgi-W {
-  color: red;
+  color: #eb0028;
   font-size: 40px;
   font-weight: 700;
   margin: 0 0 5%;
@@ -976,7 +977,7 @@ button {
 }
 
 .Thanks {
-  color: #ee3624;
+  color: #eb0028;
   padding: 10px;
   padding-left: 0;
   font-size: large;
@@ -1177,7 +1178,7 @@ button {
 
 .section-title {
   font-size: 2rem;
-  color: #ff0000;
+  color: #eb0028;
   /* Red color for titles */
   text-align: center;
   margin-bottom: 1.5rem;
