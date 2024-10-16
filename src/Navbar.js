@@ -84,7 +84,7 @@ const Navbar = () => {
                                     <Link className="navbar_lin1__bGONE" to="/AboutUs">ABOUT US</Link>
                                     <Link className="navbar_lin1__bGONE" to="/Teams">TEAMS</Link>
                                     <Link className="navbar_lin1__bGONE active" to="/Sponsors">SPONSORS</Link>
-                                    <Link id="navbar_red1__MWKWk" className="navbar_lin1__bGONE" to="/">BUY TICKETS</Link>
+                                    <Link id="navbar_red1__MWKWk" className="navbar_lin1__bGONE" to="/BuyTickets">BUY TICKETS</Link>
                                     <Link className="navbar_lin1__bGONE" to="/ContactUs">CONTACT US</Link>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
                         <Link aria-current="page" className="navbar_lin__yrOtl active" to="/AboutUs">ABOUT US</Link>
                         <Link className="navbar_lin__yrOtl" to="/Teams">TEAMS</Link>
                         <Link className="navbar_lin__yrOtl" to="/Sponsors">SPONSORS</Link>
-                        <Link id="navbar_red__gXnY4" className="navbar_lin__yrOtl" to="/">BUY TICKETS</Link>
+                        <Link id="navbar_red__gXnY4" className="navbar_lin__yrOtl" to="/BuyTickets">BUY TICKETS</Link>
                         <Link className="navbar_lin__yrOtl" style={{ color: '#eb0028' }} to="/ContactUs">CONTACT US</Link>
                     </div>
                 </div>
