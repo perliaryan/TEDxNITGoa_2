@@ -1,15 +1,27 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+// const createOrderRoutes = require('./createOrder');
+
 const app = express();
 const port = 5000;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+app.use(helmet());
+
+// Rate limiting
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100 // limit each IP to 100 requests per windowMs
+});
+app.use('/api', limiter); // Apply rate limiting to all routes under /api
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/tedx_contact_form', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/tedx_database', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Create a schema for form submissions
 const submissionSchema = new mongoose.Schema({
@@ -24,9 +36,9 @@ const submissionSchema = new mongoose.Schema({
 const Submission = mongoose.model('Submission', submissionSchema);
 
 // Route to handle form submissions
-app.post('/submit-form', async (req, res) => {
+app.post('/api/submit-form', async (req, res) => {
   try {
-    console.log(req.body)
+    console.log(req.body);
     const newSubmission = new Submission(req.body);
     await newSubmission.save();
     res.status(201).json({ message: 'Form submitted successfully' });
@@ -36,7 +48,7 @@ app.post('/submit-form', async (req, res) => {
 });
 
 // Route to get all submissions
-app.get('/submissions', async (req, res) => {
+app.get('/api/submissions', async (req, res) => {
   try {
     const submissions = await Submission.find();
     res.json(submissions);
@@ -44,6 +56,15 @@ app.get('/submissions', async (req, res) => {
     res.status(500).json({ message: 'Error fetching submissions', error: error.message });
   }
 });
+
+// // Use the createOrder routes
+// app.use('/api', createOrderRoutes);
+
+// // Error handling middleware
+// app.use((err, req, res, next) => {
+//   console.error(err.stack);
+//   res.status(500).send('Something broke!');
+// });
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);

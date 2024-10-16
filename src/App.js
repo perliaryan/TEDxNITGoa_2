@@ -10,6 +10,7 @@ import NotFound from './NotFound';
 import Sponsors from './Sponsors';
 import Rough from './Roug';
 import ContactUs from './ContactUs';
+import BuyTickets from './BuyTickets'; // Import the new BuyTickets component
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
             </Route>
             <Route path="/ContactUs">
               <ContactUs />
+            </Route>
+            <Route path="/BuyTickets">
+              <BuyTickets />
             </Route>
             <Route path="*">
               <NotFound />

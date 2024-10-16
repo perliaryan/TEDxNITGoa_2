@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Navbar = () => {
     const [showContent, setShowContent] = useState(false);
@@ -38,7 +39,7 @@ const Navbar = () => {
     return (
         <div className="navbar_nav">
             <div className="navbar_left">
-                <a href="/"><img src="/tedXnitgoa_logo.png" alt="" className="navbar_logo1__mHDkT" /></a>
+                <Link to="/"><img src="/tedXnitgoa_logo.png" alt="" className="navbar_logo1__mHDkT" /></Link>
             </div>
             {isMobile ? (
                 <div className="innerok">
@@ -54,10 +55,9 @@ const Navbar = () => {
                         )}
                     </div>
                     {showContent && (
-
                         <div className="innerless">
                         <button className="navbar_toggle__1Pu10">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="navbar_ll__nKuuS" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M405 136.798L375.202 107 256 226.202 136.798 107 107 136.798 226.202 256 107 375.202 136.798 405 256 285.798 375.202 405 405 375.202 285.798 256z"></path></svg>
+                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" className="navbar_ll__nKuuS" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M405 136.798L375.202 107 256 226.202 136.798 107 107 136.798 226.202 256 107 375.202 136.798 405 256 285.798 375.202 405 405 375.202 285.798 256z"></path></svg>
                         </button>
                         <div className="navbar_sidehead__HVrOC">
                             <div className="navbar_head__Un2yU">
@@ -84,7 +84,6 @@ const Navbar = () => {
                     </div>
                 </div>
             )}
-
         </div>
     );
 }
